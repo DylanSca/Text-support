@@ -40,8 +40,8 @@ public class SupportSystem
             String input = reader.getInput();
             
             input = input.trim();//question(8)
-
-            if(input.startsWith("bye")) {
+            input = input.toLowerCase();//question(9)
+            if(input.equals("bye")) {//question(11)
                 finished = true;
             }
             else {
@@ -76,8 +76,7 @@ public class SupportSystem
 /*
  *3) Parameters in one and not in the other.
  *4)Boolean sufix
- * hhhhhhh
- * 
+ * 10)boolean
  * 
  * 
  * 
